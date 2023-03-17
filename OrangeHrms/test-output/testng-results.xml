@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3532" started-at="2023-03-02T17:54:00 IST" finished-at="2023-03-02T17:54:03 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3532" started-at="2023-03-02T17:54:00 IST" finished-at="2023-03-02T17:54:03 IST">
+      <class name="testcases.LoginPageTest">
+        <test-method status="PASS" signature="browserInitialization()[pri:0, instance:testcases.LoginPageTest@687080dc]" name="browserInitialization" is-config="true" duration-ms="11407" started-at="2023-03-02T17:53:48 IST" finished-at="2023-03-02T17:54:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:testcases.LoginPageTest@687080dc]" name="startTest" is-config="true" duration-ms="477" started-at="2023-03-02T17:54:00 IST" finished-at="2023-03-02T17:54:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC1()[pri:1, instance:testcases.LoginPageTest@687080dc]" name="TC1" duration-ms="2515" started-at="2023-03-02T17:54:00 IST" description="Verify that user should not able to login with invalid credentials" finished-at="2023-03-02T17:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.LoginPageTest@687080dc]" name="endTest" is-config="true" duration-ms="505" started-at="2023-03-02T17:54:03 IST" finished-at="2023-03-02T17:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
